@@ -41,7 +41,7 @@ body{
 
 .menu{
     justify-content: start;
-    gap: 28px
+    gap: 14px
 }
 
 .language__link{
@@ -50,6 +50,13 @@ body{
     font-weight: 600;
     color: #000000;
     font-size: 22px;
+}
+
+
+
+.menu__item:first-child::after{
+    content: url('../img/slash.svg');
+    margin-left: 14px;
 }
 
 .menu__link{
